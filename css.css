@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transition: step-end;
+    transition: 2s;
+    cursor: pointer;
+}
+div:active{
+    background-image: url(https://i.ytimg.com/vi/NZctAPhGcLQ/hqdefault.jpg);
+    transition-duration: 1s;
+}
